@@ -4,6 +4,7 @@ members = ["cargo:./apps/brush-app"]
 [dist]
 cargo-dist-version = "0.30.3"
 ci = "github"
+dispatch-releases = true
 installers = []
 targets = ["x86_64-pc-windows-msvc"]
 
