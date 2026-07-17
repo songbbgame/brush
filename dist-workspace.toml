@@ -7,6 +7,7 @@ members = ["cargo:./apps/brush-app"]
 cargo-dist-version = "0.30.3"
 # CI backends to support
 ci = "github"
+dispatch-releases = true
 # The installers to generate for each app
 installers = []
 # Target platforms to build apps for (Rust target-triple syntax)
