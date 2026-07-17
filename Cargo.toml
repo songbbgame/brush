@@ -148,6 +148,11 @@ debug = 1
 [profile.release]
 lto = "thin"
 
+[profile.dist]
+inherits = "release"
+lto = true
+opt-level = 3
+
 [workspace.lints.rust]
 future_incompatible = { level = "warn", priority = -1 }
 nonstandard_style = { level = "warn", priority = -1 }
